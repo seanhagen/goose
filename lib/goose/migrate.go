@@ -402,8 +402,7 @@ func Down_{{ . }}(txn *sql.Tx) {
 }
 `))
 
-var sqlMigrationTemplate = template.Must(template.New("goose.sql-migration").Parse(`
--- +goose Up
+var sqlMigrationTemplate = template.Must(template.New("goose.sql-migration").Parse(`-- +goose Up
 -- +goose StatementBegin
 
 -- +goose StatementEnd
