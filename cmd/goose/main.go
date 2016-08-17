@@ -66,6 +66,8 @@ func usage() {
 var usagePrefix = `
 goose is a database migration management system for Go projects.
 
+This is a fork of the original!
+
 Usage:
     goose [options] <subcommand> [subcommand options]
 
